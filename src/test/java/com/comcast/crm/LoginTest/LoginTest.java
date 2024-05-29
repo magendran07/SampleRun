@@ -20,6 +20,6 @@ public class LoginTest {
 		LoginTOVTiger lop=new LoginTOVTiger(driver);
 		lop.loginTOCRm("admin", "admin");
 		driver.close();
-		
+		System.out.println("--- closed ---");
 	}
 }
